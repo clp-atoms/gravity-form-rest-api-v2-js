@@ -1,6 +1,6 @@
 {
   "name": "gravity-form-rest-api",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Gravity Form REST API v2 for JavaScript",
   "main": "index.js",
   "scripts": {
