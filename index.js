@@ -64,6 +64,13 @@ class GFormRESTAPI {
     this.post(opt, callback);
   }
 
+  /**
+   * Update entry
+   *
+   * @param {*} entry_id
+   * @param {*} entry_fields
+   * @param {*} callback
+   */
   updateEntry(entry_id, entry_fields, callback) {
     const opt = {
       url: `${this.API_BASE_URL}entries/${entry_id}`,
@@ -74,6 +81,12 @@ class GFormRESTAPI {
     this.put(opt, callback);
   }
 
+  /**
+   * Delete entry
+   *
+   * @param {*} entry_id
+   * @param {*} callback
+   */
   deleteEntry(entry_id, callback) {
     if (!entry_id) {
       console.error('No entry id found.');
@@ -104,6 +117,7 @@ class GFormRESTAPI {
 
   /**
    * GET Request
+   *
    * @param {object} opt
    */
   get(opt, callback) {
@@ -121,6 +135,7 @@ class GFormRESTAPI {
 
   /**
    * POST Request
+   *
    * @param {*} opt
    */
   post(opt, callback) {
@@ -140,6 +155,7 @@ class GFormRESTAPI {
 
   /**
    * PUT Request
+   *
    * @param {*} opt
    */
   delete(opt, callback) {
