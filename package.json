@@ -1,5 +1,5 @@
 {
-  "name": "gravity-form-rest-api-v2",
+  "name": "gravity-form-rest-api",
   "version": "0.1.0",
   "description": "Gravity Form REST API v2 for JavaScript",
   "main": "index.js",
