@@ -25,7 +25,7 @@ const GForm = new GFormAPI(API_BASE_URL, API_KEY, API_SECRET_KEY);
 function callback(err, res, body) {
   if (err) throw new Error(err);
   console.log(body);
-});
+}
 ```
 
 ### Get all form entries
