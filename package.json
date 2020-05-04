@@ -1,0 +1,31 @@
+{
+  "name": "gravity-form-rest-api-v2",
+  "version": "0.1.0",
+  "description": "Gravity Form REST API v2 for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"index.js\"",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clp-atoms/gravity-form-rest-api-v2-js.git"
+  },
+  "author": "Carlo La Pera <carlo.lapera@atoms.studio> (https://atoms.studio)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clp-atoms/gravity-form-rest-api-v2-js/issues"
+  },
+  "homepage": "https://github.com/clp-atoms/gravity-form-rest-api-v2-js#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "oauth-1.0a": "^2.2.6",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
+  }
+}
